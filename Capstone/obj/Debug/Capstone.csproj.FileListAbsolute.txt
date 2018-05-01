@@ -1,0 +1,14 @@
+C:\Users\miweaver\team-exercises\team2-c-week6-pair-exercises\m2-w6d4-capstone\Capstone\obj\Debug\Capstone.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\team-exercises\team2-c-week6-pair-exercises\m2-w6d4-capstone\Capstone\bin\Debug\Capstone.exe.config
+C:\Users\miweaver\team-exercises\team2-c-week6-pair-exercises\m2-w6d4-capstone\Capstone\bin\Debug\Capstone.exe
+C:\Users\miweaver\team-exercises\team2-c-week6-pair-exercises\m2-w6d4-capstone\Capstone\bin\Debug\Capstone.pdb
+C:\Users\miweaver\team-exercises\team2-c-week6-pair-exercises\m2-w6d4-capstone\Capstone\obj\Debug\Capstone.exe
+C:\Users\miweaver\team-exercises\team2-c-week6-pair-exercises\m2-w6d4-capstone\Capstone\obj\Debug\Capstone.pdb
+C:\Users\miweaver\team-exercises\team2-c-week6-pair-exercises\m2-w6d4-capstone\Capstone\obj\Debug\Capstone.csprojResolveAssemblyReference.cache
+C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\obj\Debug\Capstone.csprojResolveAssemblyReference.cache
+C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\obj\Debug\Capstone.csproj.CoreCompileInputs.cache
+C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\bin\Debug\Capstone.exe.config
+C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\bin\Debug\Capstone.exe
+C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\bin\Debug\Capstone.pdb
+C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\obj\Debug\Capstone.exe
+C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\obj\Debug\Capstone.pdb
