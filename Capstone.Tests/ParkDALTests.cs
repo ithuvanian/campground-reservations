@@ -16,7 +16,7 @@ namespace Capstone.DAL.Tests
     public class ParkDALTests
     {
         private TransactionScope tran;
-        private string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=NationalPark;Integrated Security=True";
+        private string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=Campgrounds;Integrated Security=True";
         private int numberOfParks = 0;
 
         [TestInitialize]
@@ -33,7 +33,7 @@ namespace Capstone.DAL.Tests
                 cmd = new SqlCommand("SELECT COUNT(*) FROM park;", conn);
                 numberOfParks = (int)cmd.ExecuteScalar();
 
-                cmd = new SqlCommand("INSERT INTO park (name, location, establish_date, area, visitors, description) VALUES ('Test Park', 'testlocation', '2001-01-01', 1, 1, 'testdescription'); SELECT CAST(SCOPE_IDENTITY() as int);", conn);
+                cmd = new SqlCommand("INSERT INTO park (name, state, establish_year, area, visitors, description) VALUES ('Test Park', 'testlocation', 2001, 1, 1, 'testdescription'); SELECT CAST(SCOPE_IDENTITY() as int);", conn);
                 cmd.ExecuteNonQuery();
             }
         }

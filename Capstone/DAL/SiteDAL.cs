@@ -31,7 +31,7 @@ namespace Capstone.DAL
                     {
                         SiteId = Convert.ToInt32(reader["site_id"]),
                         CampgroundId = Convert.ToInt32(reader["campground_id"]),
-                        SiteNumber = Convert.ToInt32(reader["site_number"]),
+                        SiteNumber = Convert.ToInt32(reader["campground_site_number"]),
                         MaxOccupancy = Convert.ToInt32(reader["max_occupancy"]),
                         Accessible = Convert.ToBoolean(reader["accessible"]),
                         MaxRvLength = Convert.ToInt32(reader["max_rv_length"]),

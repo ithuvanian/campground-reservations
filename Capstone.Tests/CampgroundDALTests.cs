@@ -16,7 +16,7 @@ namespace Capstone.DAL.Tests
     public class CampgroundDALTests
     {
         private TransactionScope tran;
-        private string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=NationalPark;Integrated Security=True";
+        private string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=Campgrounds;Integrated Security=True";
         private int numberOfCampgrounds = 0;
 
         [TestInitialize]
@@ -53,17 +53,8 @@ namespace Capstone.DAL.Tests
 
             List<Campground> campground = campgroundDAL.ViewCampgrounds(newPark);
 
-            Assert.AreEqual(numberOfCampgrounds - 7, campground.Count);
+            Assert.AreEqual(0, campground.Count);
         }
 
-        //[TestMethod]
-        //public void SearchForAvailableSitesTest()
-        //{
-        //    CampgroundDAL campgroundDal = new CampgroundDAL(connectionString);
-
-        //    List<Employee> employees = employeeSqldal.Search("Flo", "Henderson");
-
-        //    Assert.AreEqual(1, employees.Count);
-        //}
     }
 }

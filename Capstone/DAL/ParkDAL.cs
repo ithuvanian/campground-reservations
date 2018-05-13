@@ -27,18 +27,22 @@ namespace Capstone.DAL
                     conn.Open();
                     SqlCommand cmd = new SqlCommand("SELECT * FROM park ORDER BY name", conn);
                     SqlDataReader reader = cmd.ExecuteReader();
+                    int marker = 1;
                     while (reader.Read())
                     {
                         Park p = new Park
                         {
+
                             ParkId = Convert.ToInt32(reader["park_id"]),
+                            Marker = marker,
                             Name = Convert.ToString(reader["name"]),
-                            Location = Convert.ToString(reader["location"]),
-                            EstablishDate = Convert.ToDateTime(reader["establish_date"]),
-                            Area = Convert.ToInt32(reader["area"]),
-                            Vistors = Convert.ToInt32(reader["visitors"]),
-                            Description = Convert.ToString(reader["description"])
+                            //State = Convert.ToString(reader["state"]),
+                            //EstablishYear = Convert.ToInt32(reader["establish_year"]),
+                            //Area = Convert.ToInt32(reader["area"]),
+                            //Vistors = Convert.ToInt32(reader["visitors"]),
+                            //Description = Convert.ToString(reader["description"])
                         };
+                        marker++;
 
                         output.Add(p);
                     }
@@ -67,8 +71,8 @@ namespace Capstone.DAL
 
                         p.ParkId = Convert.ToInt32(reader["park_id"]);
                         p.Name = Convert.ToString(reader["name"]);
-                        p.Location = Convert.ToString(reader["location"]);
-                        p.EstablishDate = Convert.ToDateTime(reader["establish_date"]);
+                        p.State = Convert.ToString(reader["state"]);
+                        p.EstablishYear = Convert.ToInt32(reader["establish_year"]);
                         p.Area = Convert.ToInt32(reader["area"]);
                         p.Vistors = Convert.ToInt32(reader["visitors"]);
                         p.Description = Convert.ToString(reader["description"]);

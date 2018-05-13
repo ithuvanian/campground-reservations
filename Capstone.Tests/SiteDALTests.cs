@@ -14,7 +14,7 @@ namespace Capstone.DAL.Tests
     public class SiteDALTests
     {
         private TransactionScope tran;
-        private string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=NationalPark;Integrated Security=True";
+        private string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=Campgrounds;Integrated Security=True";
         private int numberOfSites = 0;
 
         [TestInitialize]
@@ -31,7 +31,7 @@ namespace Capstone.DAL.Tests
                 cmd = new SqlCommand("SELECT COUNT(*) FROM site JOIN campground ON campground.campground_id = site.campground_id WHERE campground.campground_id = 1; ", conn);
                 numberOfSites = (int)cmd.ExecuteScalar();
 
-                cmd = new SqlCommand("INSERT INTO site (campground_id, site_number, max_occupancy, accessible, max_rv_length, utilities) VALUES (1, 1, 1, 1, 1, 1); SELECT CAST(SCOPE_IDENTITY() as int);", conn);
+                cmd = new SqlCommand("INSERT INTO site (campground_id, campground_site_number, max_occupancy, accessible, max_rv_length, utilities) VALUES (1, 1, 1, 1, 1, 1); SELECT CAST(SCOPE_IDENTITY() as int);", conn);
                 cmd.ExecuteNonQuery();
             }
         }

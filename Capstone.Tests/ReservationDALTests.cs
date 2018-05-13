@@ -16,7 +16,7 @@ namespace Capstone.DAL.Tests
     public class ReservationDALTests
     {
         private TransactionScope tran;
-        private string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=NationalPark;Integrated Security=True";
+        private string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog=Campgrounds;Integrated Security=True";
         private int numberOfReservations = 0;
         private int numberOfReservations2 = 0;
 

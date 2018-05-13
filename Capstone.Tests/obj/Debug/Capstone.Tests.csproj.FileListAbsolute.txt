@@ -18,3 +18,14 @@ C:\Users\miweaver\source\repos\CampgroundReservations\Capstone.Tests\bin\Debug\C
 C:\Users\miweaver\source\repos\CampgroundReservations\Capstone.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\miweaver\source\repos\CampgroundReservations\Capstone.Tests\bin\Debug\Capstone.pdb
 C:\Users\miweaver\source\repos\CampgroundReservations\Capstone.Tests\bin\Debug\Capstone.exe.config
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\bin\Debug\Capstone.Tests.dll
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\bin\Debug\Capstone.Tests.pdb
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\bin\Debug\Capstone.exe
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\bin\Debug\Capstone.pdb
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\bin\Debug\Capstone.exe.config
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\obj\Debug\Capstone.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\obj\Debug\Capstone.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\obj\Debug\Capstone.Tests.csproj.CopyComplete
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\obj\Debug\Capstone.Tests.dll
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone.Tests\obj\Debug\Capstone.Tests.pdb

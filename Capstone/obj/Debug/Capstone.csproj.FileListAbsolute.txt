@@ -12,3 +12,10 @@ C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\bin\Debug\Capston
 C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\bin\Debug\Capstone.pdb
 C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\obj\Debug\Capstone.exe
 C:\Users\miweaver\source\repos\CampgroundReservations\Capstone\obj\Debug\Capstone.pdb
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone\bin\Debug\Capstone.exe.config
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone\bin\Debug\Capstone.exe
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone\bin\Debug\Capstone.pdb
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone\obj\Debug\Capstone.csproj.CoreCompileInputs.cache
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone\obj\Debug\Capstone.exe
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone\obj\Debug\Capstone.pdb
+C:\Users\Micha\Documents\MEGA\code\teProjects\CampgroundReservations\Capstone\obj\Debug\Capstone.csprojResolveAssemblyReference.cache

@@ -49,7 +49,7 @@ namespace Capstone
 
             foreach (Park thisPark in parks)
             {
-                Console.WriteLine(thisPark.ParkId + ") " + thisPark.Name);
+                Console.WriteLine(thisPark.Marker + ") " + thisPark.Name);
             }
             Console.WriteLine("Q) Quit");
 
@@ -65,7 +65,7 @@ namespace Capstone
             bool parkAssigned = false;
             foreach (Park thisPark in parks)
             {
-                if (thisPark.ParkId == userInt)
+                if (thisPark.Marker == userInt)
                 {
                     selectedPark = thisPark;
                     parkAssigned = true;
@@ -93,8 +93,8 @@ namespace Capstone
             selectedPark = dal.DisplayParkInfo(selectedPark);
 
             Console.WriteLine(selectedPark.Name + " National Park");
-            Console.WriteLine("Location: " + selectedPark.Location);
-            Console.WriteLine("Established: " + selectedPark.EstablishDate.ToString("MM/dd/yyyy"));
+            Console.WriteLine("State: " + selectedPark.State);
+            Console.WriteLine("Established: " + selectedPark.EstablishYear);
             Console.WriteLine("Area: " + string.Format("{0:n0}", selectedPark.Area) + " sq km");
             Console.WriteLine("Annual Visitors: " + string.Format("{0:n0}", selectedPark.Vistors));
             Console.WriteLine();
@@ -119,11 +119,10 @@ namespace Capstone
             }
             Console.WriteLine(buffer.ToString());
             Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("Select a Command");
-            Console.WriteLine("1) View Campgrounds");
+            Console.WriteLine("Select a Command:");
+            Console.WriteLine("1) View Campgrounds in " + selectedPark.Name);
             Console.WriteLine("2) View Existing Reservations for the Next 30 Days");
-            Console.WriteLine("3) Search for Reservation");
+            Console.WriteLine("3) Make a Reservation");
             Console.WriteLine("4) Return to Previous Screen");
 
             userInput = CLIHelper.GetInteger("");
