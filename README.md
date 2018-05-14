@@ -1,3 +1,7 @@
+A system for viewing and making reservations at different campsites in national parks according to available dates. Park and site information and reservations are stored in a database. 
+
+This is a C# .NET console application that can be run from MS Visual Studio. Database queries are prepared for SQL Server. First, create a database titled "Campgrounds", then run "db/schema.sql" and "db/data.sql".
+
 # campground-reservations
 Tech Elevator pair project, week 6
 
